@@ -17,34 +17,39 @@ header{
     content: '';
     display: table;
     position: fixed;
+
 }
 .menu{
     width: 1000px;
     margin: auto;
-    margin-left: 200px;
+    margin-left: 300px;
+    margin-right: 80px;
 }
+
 header img{
     width: 120px;
     height: 100px;
     float: left;
-    padding: 1px;
 }
 
 .menu h1{
-    font-size: 60px;
+    font-size: 40px;
     font-style: italic;
-    
+    margin-right: 0px;
 }
-h1{
+.escuela h1{
     font-size: 40px;
     color: white;
-    width: 120px;
-    height: 100px;
+    width: 20px;
+    height: 10px;
     float: left;
-    padding: 8px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 5px;
+
 }
 nav{
-    float: right;
+    float: left;
 }
 header nav ul li{
     list-style: none;
@@ -92,7 +97,7 @@ footer{
 }
 
 .menu nav ul li a{
-    padding: 25px;
+    padding: 20px;
 }
 
 .docentes{
@@ -128,4 +133,12 @@ footer h2{
     color: white;
     float: left;
     padding: 18px;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+td{
+    color: white;
 }
